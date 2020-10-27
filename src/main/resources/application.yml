@@ -7,4 +7,4 @@ logging:
     # 此包下所有class以DEBUG级别输出
     com.service.hi: warn
   path: /app/logs
-  file: hello.log
+  file: /app/logs/hello.log
