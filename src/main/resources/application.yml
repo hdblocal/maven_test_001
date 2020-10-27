@@ -1,2 +1,8 @@
 server:
   port: 1111
+logging:
+  level:
+    # root日志以WARN级别输出
+    root: info
+    # 此包下所有class以DEBUG级别输出
+    com.service.hi: warn
